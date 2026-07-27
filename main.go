@@ -41,23 +41,24 @@ func main() {
 	//	fmt.Println(err)
 	//}
 	//err = os.WriteFile("output.csv", countWords, 0644)
-	// 2. Создаем или открываем файл для записи
+
 	file, err := os.Create("output.csv")
 	if err != nil {
 		log.Fatal(err)
 	}
 	defer file.Close()
-	// 3. Создаем CSV writer
+
+	//CSV writer
 	writer := csv.NewWriter(file)
 	writer.Comma = '.'
 	defer writer.Flush()
 
-	// 4. Записываем заголовок (опционально)
+	//Записываем заголовок
 	if err := writer.Write([]string{"Слово", "Частота"}); err != nil {
 		log.Fatal(err)
 	}
 
-	// 5. Итерация по map и запись строк
+	//Итерация по map и запись строк
 	for k, v := range countWords {
 		if err := writer.Write([]string{k, strconv.Itoa(v)}); err != nil {
 			log.Fatal(err)
@@ -66,7 +67,7 @@ func main() {
 	for word, count := range countWords {
 		fmt.Printf("%s.%d\n", word, count)
 	}
-	fmt.Println(arr)
-	fmt.Println(len(arr))
+	//fmt.Println(arr)
+	//fmt.Println(len(arr))
 
 }
