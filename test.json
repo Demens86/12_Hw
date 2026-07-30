@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Анна Иванова",
+    "age": 28,
+    "position": "Разработчик ПО",
+    "salary": 85000,
+    "email": "anna.ivanova@company.com",
+    "is_active": true
+  },
+  {
+    "id": 2,
+    "name": "Пётр Сидоров",
+    "age": 35,
+    "position": "Системный администратор",
+    "salary": 72000,
+    "email": "petr.sidorov@company.com",
+    "is_active": true
+  },
+  {
+    "id": 3,
+    "name": "Мария Козлова",
+    "age": 31,
+    "position": "Аналитик данных",
+    "salary": 90000,
+    "email": "maria.kozlova@company.com",
+    "is_active": false
+  },
+  {
+    "id": 4,
+    "name": "Алексей Волков",
+    "age": 26,
+    "position": "Тестировщик ПО",
+    "salary": 65000,
+    "email": "alexey.volkov@company.com",
+    "is_active": true
+  },
+  {
+    "id": 5,
+    "name": "Елена Морозова",
+    "age": 42,
+    "position": "Менеджер проектов",
+    "salary": 110000,
+    "email": "elena.morozova@company.com",
+    "is_active": true
+  },
+  {
+    "id": 6,
+    "name": "Дмитрий Николаев",
+    "age": 33,
+    "position": "DevOps инженер",
+    "salary": 95000,
+    "email": "dmitry.nikolaev@company.com",
+    "is_active": true
+  },
+  {
+    "id": 7,
+    "name": "Ольга Соколова",
+    "age": 29,
+    "position": "Дизайнер интерфейсов",
+    "salary": 78000,
+    "email": "olga.sokolova@company.com",
+    "is_active": true
+  },
+  {
+    "id": 8,
+    "name": "Игорь Павлов",
+    "age": 37,
+    "position": "Технический писатель",
+    "salary": 60000,
+    "email": "igor.pavlov@company.com",
+    "is_active": false
+  },
+  {
+    "id": 9,
+    "name": "Светлана Волкова",
+    "age": 24,
+    "position": "Специалист поддержки",
+    "salary": 55000,
+    "email": "svetlana.volkova@company.com",
+    "is_active": true
+  },
+  {
+    "id": 10,
+    "name": "Андрей Борисов",
+    "age": 45,
+    "position": "Архитектор решений",
+    "salary": 120000,
+    "email": "andrey.borisov@company.com",
+    "is_active": true
+  }
+]
